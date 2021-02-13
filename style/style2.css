@@ -148,12 +148,18 @@ body h2 {
 }
 
 .products {
-    background: #101010;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
     color: #d35400;
 }
 
 .products h2 {
-    background: #101010;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .products .card {
@@ -186,13 +192,6 @@ body h2 {
 .products .menu-img {
     height: 256px;
     width: 100%;
-}
-
-.offers-section .specail-offer {
-    background: #FFFFFF;
-    background: -moz-linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
-    background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
-    background: linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
 }
 
 .awesome {
@@ -236,8 +235,9 @@ body h2 {
     }
 }
 
-.best-sellers .carousel-item .card {
-    border: none;
+.safety-section {
+    background: #1b1b1b;
+    color: white;
 }
 
 .safety-section h2 {
@@ -251,6 +251,10 @@ body h2 {
 
 .our-place {
     text-align: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .our-place .card {
@@ -261,35 +265,38 @@ body h2 {
     margin-bottom: 2%;
 }
 
-.told-us {
-    text-align: center;
-    margin-bottom: 3%;
-}
-
-.told-us .carousel-item {
-    margin-bottom: 2%;
-}
-
-.told-us .card {
-    border: none;
+.our-place h2 {
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .contact-us {
-    background-image: url('../img /giphy.gif');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .contact-us .card {
     border: none;
     margin-bottom: 3%;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .contact-us .list-group li {
+    color: #d35400;
     border: none;
     list-style: none;
     text-decoration: none;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
+    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 #Order-section a {
