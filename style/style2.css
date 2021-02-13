@@ -262,6 +262,10 @@ body h2 {
     background: black;
 }
 
+.contact-us h2 {
+    background: black;
+}
+
 .contact-us .card {
     border: none;
     margin-bottom: 3%;
