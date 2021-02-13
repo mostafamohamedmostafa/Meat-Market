@@ -10,6 +10,10 @@ body {
     font-family: 'Rakkas', cursive;
     direction: rtl;
     text-align: center;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #636363 71%, #000000 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #636363 71%, #000000 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #636363 71%, #000000 100%);
 }
 
 body h2 {
@@ -120,21 +124,21 @@ body h2 {
 
 .about-us {
     text-align: center;
-    background: #1b1b1b;
+    background: lightgray;
     width: 100%;
     color: white;
 }
 
 .about-us .card {
     border: none;
-    background: #1b1b1b;
+    background: lightgray;
 }
 
 .about-us .list-group-item {
     text-decoration: none;
     list-style: none;
     border: none;
-    background: #1b1b1b;
+    background: lightgray;
 }
 
 .about-us .details {
@@ -148,19 +152,10 @@ body h2 {
 }
 
 .products {
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
     color: #d35400;
 }
 
-.products h2 {
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
-}
+.products h2 {}
 
 .products .card {
     border: none;
@@ -236,7 +231,6 @@ body h2 {
 }
 
 .safety-section {
-    background: #1b1b1b;
     color: white;
 }
 
@@ -251,10 +245,6 @@ body h2 {
 
 .our-place {
     text-align: center;
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .our-place .card {
@@ -265,27 +255,13 @@ body h2 {
     margin-bottom: 2%;
 }
 
-.our-place h2 {
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
-}
+.our-place h2 {}
 
-.contact-us {
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
-}
+.contact-us {}
 
 .contact-us .card {
     border: none;
     margin-bottom: 3%;
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 .contact-us .list-group li {
@@ -293,10 +269,6 @@ body h2 {
     border: none;
     list-style: none;
     text-decoration: none;
-    background: #000000;
-    background: -moz-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #636160 50%, #000000 100%);
-    background: linear-gradient(to right, #000000 0%, #636160 50%, #000000 100%);
 }
 
 #Order-section a {
