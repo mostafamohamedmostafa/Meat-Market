@@ -88,7 +88,10 @@ body h2 {
     }
 }
 
-.why-us-section {}
+.why-us-section .details {
+    color: #d35400;
+    font-size: larger;
+}
 
 .why-us-section .card {
     border: none;
