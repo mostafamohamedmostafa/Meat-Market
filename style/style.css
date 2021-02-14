@@ -110,9 +110,8 @@ body h2 {
 }
 
 .why-us-section iframe {
-    width: 100%;
-    height: max-content;
-    text-align: center;
+    width: fit-content;
+    height: 30vh;
 }
 
 .slide-in-left {
