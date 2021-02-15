@@ -137,17 +137,22 @@ body h2 {
     border: none;
 }
 
+.history-section .card {
+    border: none;
+    margin: 0;
+}
+
 .products {
     color: #d35400;
 }
 
-.products h2 {
+.products .menu-header {
     background-image: url('../img/best\ \(3\).jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 55vh;
+    height: 35vh;
 }
 
 .products .card {
@@ -294,6 +299,15 @@ body h2 {
     /* For mobile phones: */
     .intro-section .carousel-item img {
         width: max-content;
+    }
+    .history-section img {
+        height: 25vh;
+    }
+    .products h2 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: -122%;
     }
     .products .nav-link {
         color: #d35400;
