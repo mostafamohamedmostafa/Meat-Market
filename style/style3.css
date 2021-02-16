@@ -146,6 +146,11 @@ body h2 {
     color: #d35400;
 }
 
+.products li {
+    animation: scale-in-ver-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: scale-in-ver-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .products .menu-header {
     background-image: url('../img/best\ \(3\).jpg');
     background-size: cover;
@@ -295,6 +300,52 @@ body h2 {
     }
 }
 
+.scale-in-ver-top {
+    -webkit-animation: scale-in-ver-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-ver-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation scale-in-ver-top
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes scale-in-ver-top {
+    0% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-ver-top {
+    0% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .intro-section .carousel-item img {
@@ -307,7 +358,6 @@ body h2 {
         position: absolute;
         text-align: center;
         width: 100%;
-        bottom: -122%;
     }
     .products .nav-link {
         color: #d35400;
