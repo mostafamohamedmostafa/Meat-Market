@@ -10,7 +10,6 @@ body {
     font-family: 'Rakkas', cursive;
     direction: rtl;
     text-align: center;
-    background: black;
 }
 
 body h2 {
@@ -21,22 +20,12 @@ body h2 {
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
-.navigation {
-    background-image: url('../img/nav-bg.jpg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 75vh;
-}
+.navigation {}
 
 .navigation h1 {
     color: #d35400;
     font-weight: 700;
     font-size: 4rem;
-    position: absolute;
-    top: 30%;
-    right: 5%;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
@@ -47,7 +36,6 @@ body h2 {
     position: absolute;
     top: 50%;
     right: 5%;
-    background: black;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
@@ -121,21 +109,18 @@ body h2 {
 
 .about-us {
     text-align: center;
-    background: black;
     width: 100%;
     color: white;
 }
 
 .about-us .card {
     border: none;
-    background: black;
 }
 
 .about-us .list-group-item {
     text-decoration: none;
     list-style: none;
     border: none;
-    background: black;
 }
 
 .about-us .details {
@@ -152,9 +137,7 @@ body h2 {
     color: #d35400;
 }
 
-.products h2 {
-    background: black;
-}
+.products h2 {}
 
 .products .card {
     border: none;
@@ -254,17 +237,11 @@ body h2 {
     margin-bottom: 2%;
 }
 
-.our-place h2 {
-    background: black;
-}
+.our-place h2 {}
 
-.contact-us {
-    background: black;
-}
+.contact-us {}
 
-.contact-us h2 {
-    background: black;
-}
+.contact-us h2 {}
 
 .contact-us .card {
     border: none;
@@ -276,7 +253,6 @@ body h2 {
     border: none;
     list-style: none;
     text-decoration: none;
-    background: black;
 }
 
 #Order-section a {
