@@ -107,6 +107,104 @@ body h2 {
     }
 }
 
+
+/*<!--Start Intro-->*/
+
+.intro-header {
+    margin-top: 10%;
+}
+
+.intro-section h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 2.4rem;
+}
+
+
+/*
+.intro-section h2::first-letter {
+ font-style: italic;
+    color: blue;
+
+}
+*/
+
+.intro-section p {
+    font-weight: bold;
+    color: gray;
+    font-size: 2rem;
+}
+
+
+/*
+.intro-section p::first-letter {
+    font-style: italic;
+       color: blue;
+   
+   }
+ */
+
+.intro-section .get-started {
+    font-weight: bold;
+    color: white;
+    border-color: #16df7e;
+    background-color: #16df7e;
+    padding: 10px 20px;
+    margin-right: 25px;
+}
+
+.intro-section .get-started:hover {
+    background-color: rgb(58, 58, 231);
+    text-decoration: none;
+}
+
+.intro-section .watch-video {
+    color: grey;
+    font-size: larger;
+}
+
+.intro-section .watch-video:hover {
+    text-decoration: none;
+}
+
+.intro-section .watch-video i:hover {
+    color: #16df7e;
+}
+
+.intro-section .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media(max-width:768px) {
+    .intro-section {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*<!--End Start Intro-->*/
+
 .about-us {
     text-align: center;
     width: 100%;
@@ -132,6 +230,48 @@ body h2 {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
 }
+
+
+/*<!--Start Feature Section -->*/
+
+.featured-services-box {
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 5%;
+}
+
+.featured-services-box:hover {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    border-top: blueviolet 3px solid;
+    border-bottom: solid springgreen 3px;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.featured-services-box i:hover {
+    color: violet;
+}
+
+.featured-services-box i {
+    color: #16df9d;
+    font-size: 2rem;
+}
+
+.featured-services-box h3 {
+    color: black;
+}
+
+.featured-services-box p {
+    color: blueviolet;
+}
+
+
+/*<!--End Feature Section -->*/
 
 .products {
     color: #d35400;
