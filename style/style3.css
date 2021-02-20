@@ -142,6 +142,11 @@ body h2 {
     margin: 0;
 }
 
+.history-section img {
+    height: 25vh;
+    width: 100%;
+}
+
 .products {
     color: #d35400;
 }
