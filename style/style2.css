@@ -352,17 +352,12 @@ body h2 {
     }
 }
 
-.safety-section {
-    color: white;
-}
+.safety-section {}
 
-.safety-section h2 {
-    background-color: transparent;
-}
+.safety-section h2 {}
 
 .safety-section .card {
     border: none;
-    background-color: transparent;
 }
 
 .our-place {
