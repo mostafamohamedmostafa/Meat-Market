@@ -249,22 +249,23 @@ body i {
     }
     .products .nav-link {
         color: #d35400;
-        font-size: large;
         font-weight: 700;
     }
-    .products .nav-link .active a {
-        color: #f09c64;
-        background-color: aqua;
-    }
-    .contact-us {
-        background-size: cover;
-    }
-    .contact-us iframe {
-        width: auto;
-        height: fit-content;
-    }
-    .products .card {
-        width: 100%;
-        height: 86%;
-    }
+}
+
+.contact-us {
+    background-size: cover;
+}
+
+.contact-us iframe {
+    width: auto;
+    height: fit-content;
+}
+
+.products .card {
+    width: 100%;
+    height: 86%;
+}
+
+
 }
