@@ -10,6 +10,7 @@ body {
     font-family: 'Rakkas', cursive;
     direction: rtl;
     text-align: center;
+    background-color: #fcfcfc;
 }
 
 body h2 {
@@ -17,22 +18,20 @@ body h2 {
     -webkit-animation: tracking-in-expand 7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     font-style: italic;
     font-weight: bold;
-    color: #d35400;
+    color: #f07524;
     background: #FFFFFF;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
 body h3 {
-    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     font-style: italic;
     font-weight: bold;
-    color: #d35400;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #f07524;
 }
 
 body i {
-    color: #d35400;
+    color: #f07524;
     font-weight: 900;
     animation: tracking-in-expand 7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -106,8 +105,9 @@ body i {
 }
 
 .why-us-section .details {
-    color: #d35400;
+    color: #f07524;
     font-size: larger;
+    font-weight: bolder;
 }
 
 .why-us-section .card {
@@ -124,11 +124,6 @@ body i {
     font-weight: 700;
     list-style: none;
     border: none;
-}
-
-.why-us-section iframe {
-    width: fit-content;
-    height: 30vh;
 }
 
 .why-us-section .about-intro {
@@ -200,74 +195,9 @@ body i {
     word-wrap: break-word;
 }
 
-.products .meals-desc {
-    color: red;
-    font-weight: 500;
-}
-
-.products span {
-    font-weight: bold;
-    color: red;
-}
-
 .products-shadow {
     -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-}
-
-.products .menu-img {
-    height: 256px;
-    width: 100%;
-}
-
-.awesome {
-    color: #313131;
-    -webkit-animation: colorchange 20s infinite alternate;
-}
-
-@-webkit-keyframes colorchange {
-    0% {
-        color: blue;
-    }
-    10% {
-        color: #8e44ad;
-    }
-    20% {
-        color: #1abc9c;
-    }
-    30% {
-        color: #d35400;
-    }
-    40% {
-        color: blue;
-    }
-    50% {
-        color: #34495e;
-    }
-    60% {
-        color: blue;
-    }
-    70% {
-        color: #2980b9;
-    }
-    80% {
-        color: #f1c40f;
-    }
-    90% {
-        color: #2980b9;
-    }
-    100% {
-        color: pink;
-    }
-}
-
-.safety-section h2 {
-    background-color: transparent;
-}
-
-.safety-section .card {
-    border: none;
-    background-color: transparent;
 }
 
 .our-place {
@@ -282,6 +212,19 @@ body i {
     margin-bottom: 2%;
 }
 
+.safety-section h2 {
+    background-color: transparent;
+}
+
+.safety-section .card {
+    border: none;
+    background-color: transparent;
+}
+
+.contact-us {
+    background-image: url("img/tour(1)");
+}
+
 .contact-us .card {
     border: none;
     margin-bottom: 3%;
@@ -293,38 +236,14 @@ body i {
     text-decoration: none;
 }
 
-#Order-section a {
-    font-size: 1.5rem;
-    border: 4#2980b9 solid 4px;
-    border-radius: 25px;
-    animation: colorchange 20s infinite alternate;
-}
-
-.why-us-section .animated {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
-
-@-webkit-keyframes up-down {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}
-
-@keyframes up-down {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    body h2 {
+        font-size: xx-large;
+    }
+    body h3 {
+        font-size: x-large;
+    }
     .intro-section .carousel-item img {
         width: max-content;
     }
@@ -333,7 +252,10 @@ body i {
         font-size: large;
         font-weight: 700;
     }
-    .products .nav-link .active {}
+    .products .nav-link .active a {
+        color: #f09c64;
+        background-color: aqua;
+    }
     .contact-us {
         background-size: cover;
     }
