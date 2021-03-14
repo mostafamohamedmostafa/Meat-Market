@@ -254,6 +254,9 @@ body i {
     .intro-section .carousel-item img {
         width: max-content;
     }
+    .our-history h3 {
+        font-size: x-large;
+    }
     .products .nav-link {
         color: #d35400;
         font-weight: 700;
