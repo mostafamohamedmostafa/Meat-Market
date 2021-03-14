@@ -183,6 +183,10 @@ body i {
     color: brown;
 }
 
+.products {
+    margin-top: 3%;
+}
+
 .products .card {
     border: none;
     margin-bottom: 1%;
