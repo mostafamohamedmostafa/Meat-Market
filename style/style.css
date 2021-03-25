@@ -182,8 +182,18 @@ body i {
     margin-top: 2%;
 }
 
+.our-history h4 {
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+}
+
 .our-history h3 {
-    font-size: xx-large;
+    font-size: 3rem;
     position: absolute;
     top: 50%;
     left: 50%;
