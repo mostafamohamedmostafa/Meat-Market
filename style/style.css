@@ -183,9 +183,9 @@ body i {
 }
 
 .our-history h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
